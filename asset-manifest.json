@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/webjam/static/css/main.a617e044.chunk.css",
+    "main.js": "/webjam/static/js/main.3fa0f1ac.chunk.js",
+    "main.js.map": "/webjam/static/js/main.3fa0f1ac.chunk.js.map",
+    "runtime-main.js": "/webjam/static/js/runtime-main.1d8f71d8.js",
+    "runtime-main.js.map": "/webjam/static/js/runtime-main.1d8f71d8.js.map",
+    "static/js/2.e3f85e5d.chunk.js": "/webjam/static/js/2.e3f85e5d.chunk.js",
+    "static/js/2.e3f85e5d.chunk.js.map": "/webjam/static/js/2.e3f85e5d.chunk.js.map",
+    "static/js/3.7f5f0e51.chunk.js": "/webjam/static/js/3.7f5f0e51.chunk.js",
+    "static/js/3.7f5f0e51.chunk.js.map": "/webjam/static/js/3.7f5f0e51.chunk.js.map",
+    "index.html": "/webjam/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/webjam/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.e3f85e5d.chunk.js.LICENSE.txt": "/webjam/static/js/2.e3f85e5d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/webjam/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d8f71d8.js",
+    "static/js/2.e3f85e5d.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.3fa0f1ac.chunk.js"
+  ]
+}
