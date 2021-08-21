@@ -4,8 +4,6 @@ import './index.css';
 
 // Components 
 import App from './App';
-import ConsumirApi from './Components/ConsumoApi.js';
-
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
