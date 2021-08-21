@@ -15,7 +15,7 @@ class Random extends React.Component {
         }
     }
 
-    changeBuscandoRandom = (e) => {   // y toda esta func/
+    changeBuscandoRandom = (e) => {   // y toda esta funcion tambien/
         this.setState({
             buscandoRandom: true
         });

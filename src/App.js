@@ -7,6 +7,7 @@ import ApiConnect from './Components/ApiConnect.js';
 import Input from './Components/ConsumoApi.js';
 import Search from './Components/SearchEngine.js';
 import Random from './Components/Random.js';
+import CardFlip from './Components/CardFlip.js';
 
 function App() {
   return ( 
