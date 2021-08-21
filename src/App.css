@@ -1,9 +1,118 @@
 .App {
   background: rgb(2,0,36);
-  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, red 35%, blue 100%); 
+  background-image: url('./Assets/gradient.svg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background: linear-gradient(135deg, rgba(2,0,36,1) 0%, red 35%, blue 100%);  */
 }
 
-.Dark {
-  color: white;
+.spacer {
+  aspect-ratio: 900/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.red {
+  background: #ff3333;
+}
+
+.purple {
+  background: #6600ff;
+}
+
+.black {
   background: black;
+}
+
+.waves {
+  background-image: url('./Assets/waves.svg');
+}
+
+footer {
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mega-margin {
+  margin-top: 10rem;
+}
+
+.divider {
+  position: relative;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 35px;
+}
+
+.divider .shape-fill {
+  fill: #6600FF;
+}
+
+.top-wave {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.top-wave svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 50px;
+}
+
+.top-wave .shape-fill {
+  fill: #0a0a0a;
+}
+
+.App-logo {
+  height: 52vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s alternate;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotate(-40deg); }
+  50% { transform: rotate(40deg); }
+  100% { transform: rotate(-40deg); } 
 }
