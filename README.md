@@ -22,7 +22,7 @@
 ## 🎒 Submission
 
 * [Website URL](https://github.com/): [ https://francisco5674.github.io/webjam/] 
-* [Source Code URL](https://github.com/):  [https://github.com/Francisco5674/myfirstapp ] 
+* [Source Code URL](https://github.com/):  [https://github.com/Francisco5674/webjam ] 
 
 </div>
 

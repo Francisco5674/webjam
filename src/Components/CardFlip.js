@@ -29,7 +29,7 @@ class CardFlip extends React.Component {
           <div className = 'box'>
           {this.props.inst}
           <br/>
-          ingrdientes: {this.props.ing_I}, {this.props.ing_II}, {this.props.ing_III}, {this.props.ing_IV}
+          ingredients: {this.props.ing_I}, {this.props.ing_II}, {this.props.ing_III}, {this.props.ing_IV}
           <br/>
             <button className= 'button is-dark is-large is-fullwidth' onClick={this.handleClick}> Back </button>
           </div>

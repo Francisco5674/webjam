@@ -8,6 +8,7 @@ const Nav = () => {
         <div className="navbar-item" href="https://bulma.io" >
           <img src={brand} className="App-logo" alt="Page Logo" width="52" height="52" style={{ fill: "red" }} />
         </div>
+        <div className = 'navbar-item'> <h1 className= 'title is-3 has-text-white'>Turbo Cocktail</h1></div>
       </div>
       <div className="top-wave">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

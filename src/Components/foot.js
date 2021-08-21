@@ -13,7 +13,7 @@ function Foot() {
         </div>
         <div className='columns has-text-centered mega-margin is-vcentered'>
           <div className='column is-2'>
-            <h1 className='title has-text-white is-3'> Grupo 5 </h1>
+            <h1 className='title has-text-white is-3'> Team 5 </h1>
             <a href="https://bulma.io">
               <img
                 src="https://bulma.io/images/made-with-bulma--white.png"
