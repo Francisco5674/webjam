@@ -1,11 +1,12 @@
 import brand from '../img/cocktail.svg'
+import '../App.css'
 const Nav = () => {
 
   return (
     <nav className="navbar is-black is-fixed-top pt-3" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <div className="navbar-item" href="https://bulma.io" >
-          <img src={brand} alt="Page Logo" width="52" height="52" style={{ fill: "red" }} />
+          <img src={brand} className="App-logo" alt="Page Logo" width="52" height="52" style={{ fill: "red" }} />
         </div>
       </div>
       <div className="top-wave">
