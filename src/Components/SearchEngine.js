@@ -131,7 +131,7 @@ class Search extends React.Component {
                                 <div className= 'box'>
                                 <div className='title is-5'> {drink.strDrink} </div> 
 
-                                <div class="imagenes">
+                                <div className="imagenes">
                                 <img  src= {drink.strDrinkThumb} width="200" height="200" style={{borderRadius: "200%"}} ></img>
                                 </div>
                                 </div>
