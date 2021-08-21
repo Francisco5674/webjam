@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACE,kBAAuB,CACvB,uDACF,CAEA,MACE,UAAY,CACZ,eACF","file":"main.fdd35141.chunk.css","sourcesContent":[".App {\n  background: rgb(2,0,36);\n  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, red 35%, blue 100%); \n}\n\n.Dark {\n  color: white;\n  background: black;\n}"]}

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/webjam/static/css/main.fdd35141.chunk.css",
-    "main.js": "/webjam/static/js/main.5837648b.chunk.js",
-    "main.js.map": "/webjam/static/js/main.5837648b.chunk.js.map",
-    "runtime-main.js": "/webjam/static/js/runtime-main.97c31bdc.js",
-    "runtime-main.js.map": "/webjam/static/js/runtime-main.97c31bdc.js.map",
-    "static/js/2.44628da2.chunk.js": "/webjam/static/js/2.44628da2.chunk.js",
-    "static/js/2.44628da2.chunk.js.map": "/webjam/static/js/2.44628da2.chunk.js.map",
-    "static/js/3.fc4e2a4c.chunk.js": "/webjam/static/js/3.fc4e2a4c.chunk.js",
-    "static/js/3.fc4e2a4c.chunk.js.map": "/webjam/static/js/3.fc4e2a4c.chunk.js.map",
+    "main.css": "/webjam/static/css/main.0a813def.chunk.css",
+    "main.js": "/webjam/static/js/main.c485ba46.chunk.js",
+    "main.js.map": "/webjam/static/js/main.c485ba46.chunk.js.map",
+    "runtime-main.js": "/webjam/static/js/runtime-main.e5fdfc3b.js",
+    "runtime-main.js.map": "/webjam/static/js/runtime-main.e5fdfc3b.js.map",
+    "static/js/2.08502262.chunk.js": "/webjam/static/js/2.08502262.chunk.js",
+    "static/js/2.08502262.chunk.js.map": "/webjam/static/js/2.08502262.chunk.js.map",
+    "static/js/3.1fb0ae43.chunk.js": "/webjam/static/js/3.1fb0ae43.chunk.js",
+    "static/js/3.1fb0ae43.chunk.js.map": "/webjam/static/js/3.1fb0ae43.chunk.js.map",
     "index.html": "/webjam/index.html",
-    "static/css/main.fdd35141.chunk.css.map": "/webjam/static/css/main.fdd35141.chunk.css.map",
-    "static/js/2.44628da2.chunk.js.LICENSE.txt": "/webjam/static/js/2.44628da2.chunk.js.LICENSE.txt",
-    "static/media/47998.1042c33d.svg": "/webjam/static/media/47998.1042c33d.svg",
-    "static/media/cocktail.42c233eb.svg": "/webjam/static/media/cocktail.42c233eb.svg"
+    "static/css/main.0a813def.chunk.css.map": "/webjam/static/css/main.0a813def.chunk.css.map",
+    "static/js/2.08502262.chunk.js.LICENSE.txt": "/webjam/static/js/2.08502262.chunk.js.LICENSE.txt",
+    "static/media/cocktail.42c233eb.svg": "/webjam/static/media/cocktail.42c233eb.svg",
+    "static/media/App.css": "/webjam/static/media/waves.1dcc37b4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97c31bdc.js",
-    "static/js/2.44628da2.chunk.js",
-    "static/css/main.fdd35141.chunk.css",
-    "static/js/main.5837648b.chunk.js"
+    "static/js/runtime-main.e5fdfc3b.js",
+    "static/js/2.08502262.chunk.js",
+    "static/css/main.0a813def.chunk.css",
+    "static/js/main.c485ba46.chunk.js"
   ]
 }
