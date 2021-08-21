@@ -1,14 +1,15 @@
-import Header from './components/Header.js';
-import Box from './components/Box.js'
-import Nav from './components/Nav.js'
+import Header from './Components/Header.js';
+import Box from './Components/Box.js'
+import Nav from './Components/Nav.js'
 import './App.css'
+import ApiConnect from './Components/ApiConnect.js';
+import Input from './Components/ConsumoApi.js';
+import Search from './Components/SearchEngine.js';
 
 function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Header />
-      <Box /> 
+  return ( 
+    <div>
+      <Search/>
     </div>
   );
 }
