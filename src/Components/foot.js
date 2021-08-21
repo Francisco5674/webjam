@@ -3,7 +3,6 @@ import '../App.css'
 function Foot() {
   return (
     <footer className="footer p-0">
-
       <div className="spacer waves">
         
 

@@ -8,7 +8,6 @@ function App() {
   return ( 
     <div className = "App" >
     <Nav />
-
       <br />
       <br/>
       <br/>
@@ -19,7 +18,6 @@ function App() {
       <br/>
       <Random/>
       <br/>
-
     <Foot/>
     </div>
   );

@@ -1,7 +1,5 @@
-import { render } from '@testing-library/react';
-import { search } from 'language-tags';
 import React from 'react';
-
+import CardFlip from './CardFlip';
 
 
 class Search extends React.Component {
@@ -10,7 +8,7 @@ class Search extends React.Component {
         this.state = {
             SeacrhReturnValues: [],
             SearchTerms: '',
-            loading: false
+            loading: false,
         }
     }
 
@@ -128,13 +126,23 @@ class Search extends React.Component {
                     {(this.state.SeacrhReturnValues).map((drink) => {
                         return(
                             <div align= 'center' className='column is-one-quarter'>
-                                <div className= 'box'>
+
+                                <CardFlip nombre= {drink.strDrink} 
+                                inst = {drink.strInstructions} 
+                                picture = {drink.strDrinkThumb}
+                                ing_I = {drink.strIngredient1}
+                                ing_II = {drink.strIngredient2}
+                                ing_III = {drink.strIngredient3}
+                                ing_IV = {drink.strIngredient4}
+                                 />
+
+                                {/* <div className= 'box'>
                                 <div className='title is-5'> {drink.strDrink} </div> 
 
                                 <div className="imagenes">
                                 <img  src= {drink.strDrinkThumb} width="200" height="200" style={{borderRadius: "200%"}} ></img>
                                 </div>
-                                </div>
+                                </div> */}
                             </div>
                         )
                     }
