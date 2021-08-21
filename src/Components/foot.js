@@ -6,7 +6,7 @@ function Foot(){
         <div class="content has-text-centered">
           <div className = 'columns'>
               <div className= 'column'>
-                  <h1 className='title has-text-white is-3'> Grupo 5 </h1>
+                  <h1 className='title has-text-white is-3'> Team 5 </h1>
               </div>
 
               <div className= 'column' >

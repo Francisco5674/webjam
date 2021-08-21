@@ -18,13 +18,7 @@ function App() {
       <Search/>
       <br/>
       <br/>
-      <br/>
       <Random/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <br/>
       <br/>
       <br/>

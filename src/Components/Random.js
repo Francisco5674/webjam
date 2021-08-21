@@ -1,6 +1,5 @@
-import { render } from '@testing-library/react';
-import { search } from 'language-tags';
 import React from 'react';
+import CardFlip from './CardFlip';
 
 
 
@@ -10,15 +9,8 @@ class Random extends React.Component {
         this.state = {
             SeacrhReturnValues: [],
             SearchTerms: '',
-            loading: false,
-            buscandoRandom: false,   // esto se podria borrar/
+            loading: false
         }
-    }
-
-    changeBuscandoRandom = (e) => {   // y toda esta funcion tambien/
-        this.setState({
-            buscandoRandom: true
-        });
     }
 
     changeSeacrhTerms = (e) => {
@@ -64,9 +56,9 @@ class Random extends React.Component {
 
         render() {
             return (
-                <div className= 'container box'>
+                <div className= 'container'>
                 
-                <div className = 'columns box'>
+                <div className = 'columns'>
 
                 <div align='center' className='column' >
                     <br/>
@@ -75,28 +67,31 @@ class Random extends React.Component {
                     <br/>
                     <br/>
                     <br/>
-                    <h1 className='title is-2'> Why not randomize? </h1>
+                    <h1 className='title has-text-white is-1' front-family="verdana" > <p><strong> Why not randomize?</strong></p> </h1>
                     <form action = "">
                         <input className= "input" type="hidden" value={this.state.SearchTerms} onChange={this.changeSeacrhTerms} placeholder= 'Cocktails'/>
                         <br/>
                         <br/>
-                        <button className= 'button is-dark' type="submit" onClick= {this.useSearchEngine}> Start! </button>
+                        <button className= 'button is-dark is-large' type="submit" onClick= {this.useSearchEngine}> Start! </button>
                     </form>
                 </div>
 
-                <div className = 'column'>
+                {/* <div className = 'column'>
                     <img src='https://cdn.dribbble.com/users/891563/screenshots/5487605/apero.gif' alt="Page Logo" width="800" height="800" style={{borderRadius: "5%"}}/>
-                </div>
+                </div> */}
 
-                <div className=''>
+                <br/>
+                <br/>
+
+                <div className='column is-half'>
                     
+                    {/* <div className= 'column is-one-fifth'></div>
+                    <div className= 'column is-one-fifth'></div> */}
+
                     {(this.state.SeacrhReturnValues).map((drink) => { 
                         return( 
-                            <div align= 'center' className='columns'>  
-                                <div className= 'box'> 
-                                <div className='title is-5'> {drink.strDrink} </div> 
-                                <img  src= {drink.strDrinkThumb} width="500" height="500" style={{borderRadius: "200%"}} ></img>
-                                </div>
+                            <div className= '' align= 'center'>  
+                                <CardFlip nombre= {drink.strDrink} inst = {drink.strInstructions} picture = {drink.strDrinkThumb} />
                             </div>
                         )
                     }
