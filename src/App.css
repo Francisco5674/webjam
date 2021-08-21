@@ -1,3 +1,9 @@
 .App {
-  background-color: #292e38;
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, red 35%, blue 100%); 
+}
+
+.Dark {
+  color: white;
+  background: black;
 }
